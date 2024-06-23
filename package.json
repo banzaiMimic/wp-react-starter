@@ -5,17 +5,10 @@
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "wp-scripts start",
+    "dev": "wp-scripts start",
     "build": "wp-scripts build"
   },
-  "keywords": [
-    "WordPress",
-    "React",
-    "Starter",
-    "Plugin",
-    "Boilerplate"
-  ],
-  "author": "shewa",
+  "author": "banzaiMimic",
   "license": "ISC",
   "devDependencies": {
     "@wordpress/scripts": "^27.8.0"

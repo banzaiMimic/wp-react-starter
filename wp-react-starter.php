@@ -2,10 +2,9 @@
 /**
  * Plugin Name: WP React Starter
  * Version:     1.0.0
- * Plugin URI:  https://github.com/shewa12/wp-react-starter
+ * Plugin URI:  https://github.com/banzaiMimic/wp-react-starter
  * Description: Initiate plugin development with a React-ready application.
- * Author:      Shewa
- * Author URI:  https://shewazone.com
+ * Author:      banzaiMimic
  * Text Domain: wp-react-starter
  * Domain Path: /languages/
  * License:     GPL v3
