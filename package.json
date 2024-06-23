@@ -3,15 +3,21 @@
   "version": "1.0.0",
   "description": "Initiate plugin development with a React-ready application.",
   "main": "build/index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "wp-scripts start",
+    "watch": "export $(cat .env | xargs) && node ./start-dev.js",
+    "start:dev": "concurrently \"yarn watch\" \"yarn dev\" ",
     "build": "wp-scripts build"
   },
   "author": "banzaiMimic",
   "license": "ISC",
   "devDependencies": {
-    "@wordpress/scripts": "^27.8.0"
+    "@wordpress/scripts": "^27.8.0",
+    "chokidar": "^3.6.0",
+    "concurrently": "^8.2.2",
+    "fs-extra": "^11.2.0"
   },
   "dependencies": {
     "@wordpress/element": "^5.34.0"
